@@ -1,0 +1,5 @@
+D, E and F: The price of one pencil is given as 50 cents each. If we sell ‘k’ pencils, the revenue generated would be 50k. From the condition given in the question,
+50k ≥ (498 + 0.2k)
+49.8k ≥ 498
+K ≥ 10.
+Therefore, in order to get revenue, equal to or greater than our manufacturing cost, we must sell at least 10 pencils.
