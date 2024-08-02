@@ -156,7 +156,7 @@ def save(question, answer):
 
     data_str = json.dumps(result, ensure_ascii=False, indent=4)
     file_path = f"D:/github_project/GRE_math_crewler/Qs_Rs/result.json"
-    with open(file_path, 'a', encoding='utf-8') as file:
+    with open(file_path, 'w', encoding='utf-8') as file:
         file.write(data_str)
 
 
@@ -167,49 +167,54 @@ if __name__ == "__main__":
 
 
     # 问题
-    question_url = ["https://www.test-guide.com/courses/gre/lessons/gre-quantitative-reasoning-practice-sets/quizzes/gre-math-multiple-choice-many-practice-test-1",
-                    "https://www.test-guide.com/courses/gre/lessons/gre-quantitative-reasoning-practice-sets/quizzes/gre-math-multiple-choice-many-practice-test-2",
-                    "https://www.test-guide.com/courses/gre/lessons/gre-quantitative-reasoning-practice-sets/quizzes/gre-math-multiple-choice-practice-test-1",
-                    "https://www.test-guide.com/courses/gre/lessons/gre-quantitative-reasoning-practice-sets/quizzes/gre-math-multiple-choice-practice-test-2",
-                    ]
-    for i in range(4):
-        html = question_request_url(question_url[i]) # 保存网页源码
-        question = get_question(html)
+    # question_url = ["https://www.test-guide.com/courses/gre/lessons/gre-quantitative-reasoning-practice-sets/quizzes/gre-math-multiple-choice-many-practice-test-1",
+    #                 "https://www.test-guide.com/courses/gre/lessons/gre-quantitative-reasoning-practice-sets/quizzes/gre-math-multiple-choice-many-practice-test-2",
+    #                 "https://www.test-guide.com/courses/gre/lessons/gre-quantitative-reasoning-practice-sets/quizzes/gre-math-multiple-choice-practice-test-1",
+    #                 "https://www.test-guide.com/courses/gre/lessons/gre-quantitative-reasoning-practice-sets/quizzes/gre-math-multiple-choice-practice-test-2",
+    #                 "https://www.test-guide.com/courses/gre/lessons/gre-quantitative-reasoning-practice-sets/quizzes/gre-math-numeric-entry-practice-test-1",
+    #                 "https://www.test-guide.com/courses/gre/lessons/gre-quantitative-reasoning-practice-sets/quizzes/gre-math-numeric-entry-practice-test-2",
+    #                 "https://www.test-guide.com/courses/gre/lessons/gre-quantitative-reasoning-practice-sets/quizzes/gre-math-quantitative-comparison-practice-test-1",
+    #                 "https://www.test-guide.com/courses/gre/lessons/gre-quantitative-reasoning-practice-sets/quizzes/gre-math-quantitative-comparison-practice-test-2"
+    #                 ]
+    question_url = "https://www.test-guide.com/courses/gre/lessons/gre-quantitative-reasoning-practice-sets/quizzes/gre-math-multiple-choice-many-practice-test-1"
+    html = question_request_url(question_url) # 保存网页源码
+    question = get_question(html)
     
 
-        # 答案
-        answer_url = "https://www.test-guide.com/wp-admin/admin-ajax.php"  # 答案
-        data = {}
-        id_list = []
-        for items in question:
-            if "course_id" in items:
-                quizId = items["quizId"]
-                quiz = items["quiz"]
-                course_id = items["course_id"]
-                quiz_nonce = items["quiz_nonce"].strip("'")
-                continue
-            id = str(items["question_pro_id"])
-            id_list.append(id)
-            data[id] = {
-                "response": {
-                    "0": "false",
-                    "1": "false",
-                    "2": "true",
-                    "3": "true",
-                    "4": "false",
-                    "5": "false"
-                },
-                "question_pro_id": items["question_pro_id"],
-                "question_post_id": items["question_post_id"]
-            }
+    # 答案
+    answer_url = "https://www.test-guide.com/wp-admin/admin-ajax.php"  # 答案
+    data = {}
+    id_list = []
+    for items in question:
+        if "course_id" in items:
+            quizId = items["quizId"]
+            quiz = items["quiz"]
+            course_id = items["course_id"]
+            quiz_nonce = items["quiz_nonce"].strip("'")
+            continue
+        id = str(items["question_pro_id"])
+        id_list.append(id)
+        data[id] = {
+            "response": {
+                "0": "false",
+                "1": "false",
+                "2": "true",
+                "3": "true",
+                "4": "false",
+                "5": "false"
+            },
+            "question_pro_id": items["question_pro_id"],
+            "question_post_id": items["question_post_id"]
+        }
 
-        response = json.dumps(data)
-        html = answer_request_url(quizId, quiz, course_id, quiz_nonce, response, answer_url) # 保存结果
-        answer = get_answer(id_list, html)
+    response = json.dumps(data)
+    html = answer_request_url(quizId, quiz, course_id, quiz_nonce, response, answer_url) # 保存结果
+    answer = get_answer(id_list, html)
 
 
-        # # 处理成规定格式，保存
-        save(question, answer)
+    # # 处理成规定格式，保存
+    save(question, answer)
+
 
     print("over")
 

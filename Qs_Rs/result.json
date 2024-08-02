@@ -1,2 +1,845 @@
-{
-    'action': 'ld_adv_quiz_pro_ajax', 'func': 'checkAnswers', 'data[quizId]': '811', 'data[quiz]': '17246', 'data[course_id]': '55283', 'data[quiz_nonce]': "'6de863c7ce'", 'data[responses]': '{"5122": {"response": {"0": "false", "1": "false", "2": "true", "3": "true", "4": "false", "5": "false"}, "question_pro_id": 5122, "question_post_id": 21166}, "5123": {"response": {"0": "false", "1": "false", "2": "true", "3": "true", "4": "false", "5": "false"}, "question_pro_id": 5123, "question_post_id": 21168}, "5124": {"response": {"0": "false", "1": "false", "2": "true", "3": "true", "4": "false", "5": "false"}, "question_pro_id": 5124, "question_post_id": 21170}, "5125": {"response": {"0": "false", "1": "false", "2": "true", "3": "true", "4": "false", "5": "false"}, "question_pro_id": 5125, "question_post_id": 21173}, "5126": {"response": {"0": "false", "1": "false", "2": "true", "3": "true", "4": "false", "5": "false"}, "question_pro_id": 5126, "question_post_id": 21175}, "5127": {"response": {"0": "false", "1": "false", "2": "true", "3": "true", "4": "false", "5": "false"}, "question_pro_id": 5127, "question_post_id": 21177}, "5128": {"response": {"0": "false", "1": "false", "2": "true", "3": "true", "4": "false", "5": "false"}, "question_pro_id": 5128, "question_post_id": 21179}, "5130": {"response": {"0": "false", "1": "false", "2": "true", "3": "true", "4": "false", "5": "false"}, "question_pro_id": 5130, "question_post_id": 21181}, "5135": {"response": {"0": "false", "1": "false", "2": "true", "3": "true", "4": "false", "5": "false"}, "question_pro_id": 5135, "question_post_id": 21187}, "5139": {"response": {"0": "false", "1": "false", "2": "true", "3": "true", "4": "false", "5": "false"}, "question_pro_id": 5139, "question_post_id": 21202}}', 'quiz': '17246', 'course_id': '55283', 'quiz_nonce': "'6de863c7ce'"}
+[
+    {
+        "id": 0,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Given that a/b = 1/6 and 9a-b = 12, which of the following is greater than ‘b’. Indicate all the possible answers.['a. 13', 'b. 17', 'c. 19', 'd. 24', 'e. 25', 'f. 28']",
+            "回答明细": {
+                "回答": "E and F: a/b = 1/6 means b= 6a. Putting this in the other equation, we get 9a-6a = 12\n-> 3a =12 -> a=4\n9(4) – b = 12 -> 36-12 = b -> b= 24\nOnly options (e,f) are greater than 24.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 1,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Which of the following represent the sum of two integers such that the product of these two integers is 12. Indicate all the possible answers.['a. -8', 'b. -3', 'c. 1', 'd. 7', 'e. 9', 'f. 13']",
+            "回答明细": {
+                "回答": "A, D and F: First of all, we note that we can get 12 by multiplying 1 with 12, 2 with 6,and 3 with 4. Similarly, multiplying the negative of these numbers also yields the same results.\nTherefore, the sums of these numbers could be 13,8, 7, -13, -8, and -7.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 2,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "In a grocery store, there are at least 15 different brands of biscuits available. The ratio of different brands of chocolates to that of biscuits in this store is 3 to 5. Which of the following could be the possible number of chocolate brands in this store?\nIndicate all possible options.['a. 4', 'b. 7', 'c. 8', 'd. 12', 'e. 15', 'f. 19']",
+            "回答明细": {
+                "回答": "D and E: The least number of biscuit brands are 15. Also, the ratio of chocolate brands to biscuit brands is 3: 5.\nTherefore, 3/5= x/15\nx=9 where ‘x’ is the minimum number of chocolate brands. It is possible that there are more than 15 brands of biscuits and thus, the possibility of more than 9 chocolate brands.\nHowever, 19 is not a valid answer because the number of chocolate brands must be divisible by 3 as you cannot have a fraction of a brand sold at a store.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 3,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Alan went out to a supermarket to buy some house hold items. He bought a total of 4 items. The average price of first three items is $100. What was the price of 4th item if the overall average of these four items is less than $105 and greater than $95?['a. 74', 'b. 84', 'c. 88', 'd. 115', 'e. 121', 'f. 123']",
+            "回答明细": {
+                "回答": "B, C and D: Lets these four items be W,X,Y,Z.\nNow, (w+x+y)/3=100 -> w+x+y = 300\nNow, 95<(w+x+y+z)/4<105 -> 380< w+x+y+z <420\nAnd w+x+y is 300 (calculated in the first step).\nSo, the equation becomes, $80 < z < $120.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 4,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "The manufacturing cost of ‘k’ pencils is (498+0.2k) cents. These pencils are available in market at a fixed price of 50 cents each. What is the number of pencils which needs to be sold such that the revenue generated at least equals the total manufacturing cost?\nIndicate all possible options.['a. 4', 'b. 6', 'c. 9', 'd. 10', 'e. 12', 'f. 14']",
+            "回答明细": {
+                "回答": "D, E and F: The price of one pencil is given as 50 cents each. If we sell ‘k’ pencils, the revenue generated would be 50k. From the condition given in the question,\n50k ≥ (498 + 0.2k)\n49.8k ≥ 498\nK ≥ 10.\nTherefore, in order to get revenue, equal to or greater than our manufacturing cost, we must sell at least 10 pencils.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 5,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Which of the following options are smaller than the arithmetic mean of prime factors of 22? Indicate all possible options.['a. 3', 'b. 5', 'c. 7', 'd. 11', 'e. 18', 'f. 21']",
+            "回答明细": {
+                "回答": "A and B: The prime factors of 22 are 2 and 11. Their average becomes (2+11)/2 = 6.5\nOnly options A and B are smaller than 6.5.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 6,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Let ‘x’ and ‘y’ be two integers such that x < 0 and y < 0. Which of the following options could values of xy/(x+y). Indicate all possible options.['a. -21', 'b. -7', 'c. 0', 'd. 1', 'e. 1/2', 'f. 21']",
+            "回答明细": {
+                "回答": "A and B: Some of the students might get confused while answering this question. However, the basic concept is very simple. As mentioned in the question, both x and y are negative integers (x < 0, y < 0).\nAs we know that the product of two negative integers is positive, so the numerator becomes positive. The sum of two negative integers is always negative, so the denominator becomes negative. Hence, the overall fraction becomes negative.\nOnly option a and b have negative values.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 7,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Let ‘k’ be an integer such that its value is either greater than 0 or less than 0 but k ≠ 0. Which of the following options suggest a value greater than the original value of ‘k’? Indicate all the possible values.['a. K2', 'b. K + 1', 'c. K – 3', 'd. (K – 3)2', 'e. (K + 1)2', 'f. √(K+ 2)']",
+            "回答明细": {
+                "回答": "B and E: This is a relatively confusing question. Most of the students might select option (a, b, d, e) as correct answer but that’s incorrect.\nLet’s suppose, k= 1, k2 = 1, so option ‘a’ becomes incorrect. If k= -3, k+1 becomes -2 which is greater than the original value of -3. Similarly option e satisfies this condition.\nB and E are correct.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 8,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Consider the following figure, in which Line segment LM and line segment NO are parallel to each other. Which of the following must be equal to y°? Indicate all possible options.['a. w°', 'b. x°', 'c. z°', 'd. a°', 'e. b°', 'f. c°', 'g. d°']",
+            "回答明细": {
+                "回答": "A, D, and G: Alternate angles are always equal so angle y and angle w becomes equal. Also, the line segments are parallel so angle y is also equal to angle ‘d’ which is in turn equal to angle ‘a’.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 9,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "If x2y = 121, then which of the following is True? Indicate all possible answers.['a. x= 11 & y=1', 'b. xy\\xa0= 11', 'c. 2yln(x) = log2\\xa0(122)', 'd. x11= 2y', 'e. 2yln(x)= 4.8']",
+            "回答明细": {
+                "回答": "A and B: Option ‘a’ is correct because for x=11 and y=1 the statement is verified. Option 2 is mathematically correct as well because x2y can be written as (xy)2 from which xy =11.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    }
+][
+    {
+        "id": 0,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "In a triangle JKL, the length of two sides is given as 8 and 13 and the length of third side is unknown. Which of the following could be the length of this unknown side? Indicate all possible options.['a. 2', 'b. 4', 'c. 6', 'd. 9', 'e. 15', 'f. 22']",
+            "回答明细": {
+                "回答": "C, D and E: In any triangle, the length of unknown side is always greater than the difference of two given sides, and smaller than the sum of lengths of the given sides. In this case,\n13-8 < unknown side < 13 + 8 -> 5 < unknown side < 21\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 1,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "If ‘P’ is a negative odd number and ‘Q’ is a Prime number other than 2, then which of the following options is INCORRECT. Indicate all possible answers.['a. PQ is negative odd integer', 'b. PQ is negative prime number.', 'c. PQ square root is real.', 'd. PQ is negative even number.']",
+            "回答明细": {
+                "回答": "B, C and D: As we know that there are no negative prime numbers, PQ cannot be a negative prime number. Also, a square root can’t be real because it will be negative and it can’t be a negative even number either.\nFinally, PQ cannot be a negative even number.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 2,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "For all values of x and y if x < y < (x+y) which of the following must be negative. Indicate all possible options:['a. -2x', 'b. -y', 'c. x-y', 'd. 2x-y', 'e. 3x']",
+            "回答明细": {
+                "回答": "A, B and C: Let us suppose x=-2 and y=-1 then -2+ (-1) = -3 is not greater than -1. So we will choose positive values of x & y.\nTherefore, option a) and b) will always be negative.\nx < y so option c) will always be negative.\nOption d) is not necessarily negative. Let x=4 and y=5 then 2x-y = 3 which is positive.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 3,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "If 3 and 14 are factors of a number, which of the following can possibly be true? Indicate all possible answers.['a. Number is divisible by 6', 'b. Number is always divisible by 2', 'c. Number is divisible by 22', 'd. Number is divisible by 3 & 14 only', 'e. Number is a always a factor of 5']",
+            "回答明细": {
+                "回答": "A and B: Simplest way to solve this question is by considering each option, one by one, for 3*14 = 42.\nOption (a,b) are correct.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 4,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "If 6!/3m is an integer, which of the following options are greater than the largest possible value of m? Indicate all possible values.['a. 1', 'b. 2', 'c. 3', 'd. 4', 'e. 5']",
+            "回答明细": {
+                "回答": "C, D and E: Note that 6! = 6x5x4x3x2x1 . The denominator is 3x3x3x3… and so on depending upon the value of m. Now, for the given equation in the question to be an integer, we need to cancel the number of 3’s at the denominator with the 3’s at numerator.\nFor that we check the number of 3’s at numerator. So, we see that there are two 3’s in numerator (counting one from 6 = 3 x 2). This means we can have two 3’s at the denominator meaning value of m should be 2.\nWe are looking for options showing numbers greater than the maximum possible value of m, which in this case is 2. Therefore, Option (c, d, e) are correct.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 5,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Let ‘x’ be the 2-digit numbers which can be created from 5 distinct numbers. Which of the following options is less than ‘x’? Indicate all possible options.['a. 10', 'b. 15', 'c. 20', 'd. 40', 'e. 60']",
+            "回答明细": {
+                "回答": "A and B: Explanation: In this type of questions, the order matters so it’s a permutation question.\nTherefore,\n5!/(5-2)! = 5! / 3! = (5x4x3x2x1) / (3x2x1) = 20\nOnly option (a, b) suggests numbers which are less than 20.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 6,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Henderson is the elder brother of Mark, and their age difference is 3 years. Mark is 9 years younger than Alisa. If Alisa is at least 33 years old, which of the following could be the age of Henderson?['a. 21', 'b. 24', 'c. 26', 'd. 27', 'e. 29', 'f. 35']",
+            "回答明细": {
+                "回答": "D, E and F: If Alisa is 33, Mark should be 24, and Henderson should be 27 because he is 3 years older than his brother. However, we are not sure about Alisa’s age.\nShe is at least 33, but it is possible that she is older than 33. Therefore, Henderson’s age could be 27 or any number greater than 27.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 7,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "There are ‘x’ number of sweets wrapped in a gift paper. Alison gives 4/7 of the total sweets to his friend Elena, and gives 3/5 of the remaining sweets to his friend Michael. Which of the following could be the original number of sweets which were wrapped in the gift paper? Indicate all possible options.['a. 15', 'b. 25', 'c. 35', 'd. 56', 'e. 70', 'f. 95']",
+            "回答明细": {
+                "回答": "C and E: The number of sweets present in the gift wrapper needs to be a multiple of 35 because of the denominators of given fractions i.e. 7 * 5 = 35.\nSo, the number of sweets could be 35, 70, 105, 140… and so on.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 8,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Literary club in a particular university consists of at least 150 members. The number of faculty members in this group is 60% the number of male students, which is 50% the number of female students in this club. Which of the following could be the number of faculty members in this literary club? Indicate all possible options.['a. 19', 'b. 21', 'c. 23', 'd. 26', 'e. 27', 'f. 29']",
+            "回答明细": {
+                "回答": "D, E and F: From the statement of the question,\nF = (60/100) * M and M = (50/100) * Fe\nWhere F = Faculty members\nM = Male students\nFe = Female students\nTo solve this question, you can use plug-in method. Lets start with option C.\nLets suppose the number of faculty members are 23, then Male students would be equal to\nM = students i.e. 23 * (100/60) = 38 male students\nand Female students become Fe = 76 i.e. (38)(100/50) = 76 female\nTotal = 23+ 38 + 76 = 137 which is less that 150 (minimum number of members)\nLets suppose the number of faculty members are 26, then Male students would be equal to\nM = 44 students i.e. 26 * (100/60) = 44 male students\nand Female students become Fe = 88 i.e. (44)(100/50) = 88 female\nAdding these numbers, we get 26+44 + 88 = 158 > 150 so Option D is correct. Similarly, if the faculty members are increased from 26, this would still be true, so we chose options (d,e,f).\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 9,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "If -13 < a < -2 and 1 < b < 9. Which of the following could be equal to the product of ‘a’ and ‘b’. Indicate all possible values.['a. -20', 'b. -18', 'c. -15', 'd. -14', 'e. -13', 'f. -9']",
+            "回答明细": {
+                "回答": "A, B, C, D and F: This can be solved by working your way down the list and seeing if the answers work.\nif a=-10 and b=2, a*b=-10*2= -20\nif a= -9 and b = 2, a*b= -9*2= -18\nif a = -5 and b= 3, a*b = -5*3= -15\nif a = – 7 and b = 2, a*b= -7*2= -14\nif a = -3 and b = 3, a*b = -3*3= -9\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    }
+][
+    {
+        "id": 0,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "What is the area of triangle ALC in the figure given below?['a. 2.5', 'b. 3', 'c. 3.5', 'd. 4', 'e. 4.5']",
+            "回答明细": {
+                "回答": "E: First of all, we need to find LC, but for that, we need to find DL. We know that AB = DC = 7.\nSo, LC = DC- DL\nNow, DL = √(5² – 3² ) = 4 (using Pythagoras Theorem)\nSo, LC = 7 – 4 = 3\nTherefore, Area = (1/2)(Base)(Height) = (0.5)(3)(3) = 4.5\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 1,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Alan has two more than twice as many chocolates as does Alice, and half as many chocolates as does Nadia. If Alice has ‘a’ number of chocolates, then in terms of ‘a’, how many chocolates do Alan, Alice and Nadia have?['a. 2a+ 4', 'b. 5a+5', 'c. 6a+7', 'd. 7a+6', 'e. 9a+4']",
+            "回答明细": {
+                "回答": "D: We know that Alice has ‘a’ chocolates. Alan has 2a + 2 chocolates from the given statement in the question. Nadia has double the chocolates as Alan has, so she has 4a + 4 chocolates.\nAdding these, we get 4a + 4 + 2a + 2 + a = 7a +6 . So ,Option (d) is correct.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 2,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Milk needs to be thinned to a ratio of 3 parts milk to 2 parts water. The milk-man has by mistake added water so that he has 8 liters of milk which is half water and half milk. What must he add to make the proportions of the mixture correct?['a. 1 liter milk', 'b. 1 liter water', 'c. 2 liters milk', 'd. 1.5 liter milk', 'e. 3 Liter milk']",
+            "回答明细": {
+                "回答": "C: We note that the final ratio must be 3:2 for milk and water respectively. Now, according to given scenario in the question, we have eight liters of solution with 4 liters milk and 4 liters water, which makes it 2:2.\nIn order to make it 3:2, we add 2 liters milk. This would make a total of 6 liters milk and 4 liters water i.e. 6:4 which can be simplified to 3:2.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 3,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "The width of a rectangle is 2/3 times its length. If the length is calculated to be 9, what is the value of perimeter for this rectangle?['a. 36', 'b. 9', 'c. 12', 'd. 54', 'e. 30']",
+            "回答明细": {
+                "回答": "E: As the width of the rectangle is 2/3 times its length which is 9, the width comes out to be 6.\nTherefore, the perimeter becomes, 6 + 6 + 9 + 9 = 30. (Perimeter of a rectangle is calculated by adding the lengths of each side of that rectangle)\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 4,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "A line l is parallel to the y-axis and passes through the point (2,3). What is its gradient (m) and x-intercept?['a. m= 0 , x= (3,0)', 'b. m= ∞ , x= (2,0)', 'c. m= 0 , x= (2,0)', 'd. m= ∞ , x= (3,0)', 'e. m= 2 , x= (0,0)']",
+            "回答明细": {
+                "回答": "B: As the given line is parallel to the y-axis, and the slope of y-axis is infinite, therefore its slope is also infinite.\nAs the line is defined by x=2, hence its x intercept will also be 2 because all of its points will be of the form (2,y).\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 5,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "What is the equation of the new parabola created by shifting y = x2 , three units in the positive y-axis direction?['a. y = (x+3)2', 'b. x2', 'c. x2\\xa0+ 3', 'd. x2', 'e. x3']",
+            "回答明细": {
+                "回答": "C: As the parabola is shifted above, the change would come in the value of y, so we increase y i.e. the whole function by 3 units. Therefore, y = x2+3\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 6,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "A sphere with diameter 1 unit is enclosed in a cube of side 1 unit each. Find the unoccupied volume remaining inside the cube.['a. ¼', 'b. 2π', 'c. π/6-1', 'd. 1-π/4', 'e. 1-π/6']",
+            "回答明细": {
+                "回答": "E: We find the volume of the cube by the formula length³. We then subtract from it the volume of the sphere to find the empty volume.\nThe volume of cube amounts to 1*1*1=1. The volume of the sphere is (4/3)* π *(radius)³. Putting in the values we get (4/3)* π *(0.5) ³.\nThis is equal to pi/6. Subtracting the two gives 1- π /6.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 7,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "The function y=3x2 is shifted 2 units towards the positive x-axis (right) and 3 units towards the positive y-axis (up). Find the resulting function.['a. y = 3x2 + 5', 'b. y = 3x2', 'c. y = 3(x+2)2 + 3', 'd. y=3(x-2)2 – 3', 'e. y=3(x-2)2 + 3']",
+            "回答明细": {
+                "回答": "E: The upward shift is simply addressed by adding three in the given function, and the horizontal shift is addressed by changing the value of x in the given function.\nIf the shift is a units towards right, then we replace x with x-a. If the shift is towards left then we replace x with x+a.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 8,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Find the shaded area when two squares with side ‘a’ intersect as shown in the figure below.['a. 1/8 a2', 'b. 1/4 a2', 'c. a2', 'd. 1/3 a2', 'e. 2/5 a2']",
+            "回答明细": {
+                "回答": "B: We realize that the shaded figure is actually a square of side 0.5a. The answer follows, area = 0.5a * 0.5a = 0.25a². (area of a square of side a is a^2)\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 9,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "If the largest side of a triangle is A, and the other two sides are B and C. What relation exists between them?['a. A=B+C', 'b. A+C', 'c. A>|B-C|', 'd. |B-C|', 'e. A=π(B-C)']",
+            "回答明细": {
+                "回答": "C: The largest side is greater than the difference of the smaller sides and less than the sum of the two smaller sides. Therefore, option C is the correct answer.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    }
+][
+    {
+        "id": 0,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "A square PQRS is enclosed in another square ABCD. Find the ratio of the area of PQRS to the area of ABCD.['a. 1/2', 'b. 1/4', 'c. 1/3', 'd. 2/3', 'e. 1/√2']",
+            "回答明细": {
+                "回答": "A: If we divide the figure in 4 equal parts we see that the shaded area is half the total area.\nAn alternate approach is to find the unshaded area by observing that it is composed of right angled triangles, adding this area and subtracting from total can get the shaded area.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 1,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "What is the ratio of the area of triangle ABC to the area of square ADFC if CB=(CF)/4['a. 1/4', 'b. 1/8', 'c. 1/16', 'd. 2/5', 'e. 3/8']",
+            "回答明细": {
+                "回答": "B: We find the area using the one fourth length, 0.5 * base * height, then divide it by the area of the square (square of side). For length we use an arbitrary variable, but the choice doesn’t matter as the ratio is independent of it.\nLet’s suppose that the length of one side is ‘x’. Then area of square becomes x2. The area of triangle becomes (1/2)(x)(x/4) = x2/8.\nSo, the ratio becomes (x2/8)/x2 which simplifies to 1/8\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 2,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "If the product of two integers x and y is less than 82 with y being a multiple of three. What is the highest value that x may have?['a. 13', 'b. 42', 'c. 27', 'd. 30', 'e. 34']",
+            "回答明细": {
+                "回答": "C: In order to find the maximum value of x, we need to put the minimum value of y i.e. 3.\nNow, if we divide 82 by 3, we get 27.33, which means the maximum integer value that x can have must be less than 27.33. From the given options, we choose option C which is 27.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 3,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Adam is 2 years older than Mike. The square of Adam’s age is 28 greater than the square of Mike’s age in years. What is the sum of Adam’s age and Mike’s age?['a. 8', 'b. 12', 'c. 14', 'd. 18', 'e. 22']",
+            "回答明细": {
+                "回答": "C: Let suppose that Adam’s age is ‘A’, and Mike’s age is ‘M’. From the statement of the questions, we deduce following two equations.\nA = 2+M and also A2= M2+28\nA2 – M2 = 28\n(A+M)(A-M) = 28 and then putting\nA – M = 2, we get (A+M) = 14\nTherefore, the sum of Adam’s age and Mike’s age is 14.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 4,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Adam has bought a certain number of apples. Jen has bought 5 times the fruit that Adam has bought. If Jen has bought two and a half dozen apples how many apples does Adam have?['a. 6 apples', 'b. 8 apples', 'c. 12 apples', 'd. 24 apples', 'e. 30 apples']",
+            "回答明细": {
+                "回答": "A: It’s a relatively simple question. Jen has five times the number of apples which Adam has. If Jen has 30 apples, Adam has 30/5=6 apples.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 5,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "What would be the circumference of a circle that has been inscribed in a square of area 5.['a. 3π', 'b. 5π', 'c. √5 π', 'd. π+3/2', 'e. √5/2 π']",
+            "回答明细": {
+                "回答": "C: Area of a square is multiple of any two sides. If the area is 5, each side of the square has to be √5 i.e. √5*√5=5\nNow, the radius of the circle would be half of √5 because the circle in inscribed inside the square.\nSo, Radius = √5/2\nSo, Circumference= 2*( π)*√5/2\nCircumference= π√5\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 6,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Answer the question below:\nWhat could be the possible value of ‘y’ after the intersection of points\ny= -x2 + 3 and y= x2– 5['a. √2', 'b. 3/2', 'c. 4', 'd. √8', 'e. -1']",
+            "回答明细": {
+                "回答": "E: Explanation: We equate the two equations, find the two points of intersection of the two functions and compute the distance using the distance between points formula.\nAfter equating these two equations, we get x= +2 and x=-2 which gives us y=7, and y=-1. Therefore, we select option E is as our correct answer.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 7,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "A house is built by 20 workers in 30 days. How many workers will be needed to complete the work in 15 days?['a. 20', 'b. 34', 'c. 40', 'd. 45', 'e. 52']",
+            "回答明细": {
+                "回答": "C: As stated in the question, the work needs to be completed in half the days as compared to the earlier timeline for completion, therefore, the number the workers needs to be doubled.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 8,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Master Chef Alan makes a dish every day from one of his recipe books. He has written 3 books and each book contains 15 different recipes. What is the probability that he will cook 4th dish from 3rd book today?['a. 1/15', 'b. 3/45', 'c. 3/13', 'd. 1/45', 'e. 1/3']",
+            "回答明细": {
+                "回答": "D: We note that there are three books and each book contains 15 recipes so there are a total of 45 recipes. The probability that he will cook 4th dish from 3rd book today is 1/45.\nIt’s important that you must not get distracted by irrelevant information. All the recipes are different from each other.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 9,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "In a Christmas sale, the prices of Dell Laptops were reduced by 10% for public. However, for Dell employees, the price was further reduced by 5%. If the original price of a laptop was $330 before Christmas sale, approximately how much would it cost in a Christmas sale to a Dell employee?['a. $271', 'b. $277', 'c. $282', 'd. $287', 'e. $295']",
+            "回答明细": {
+                "回答": "C: Original Price = $330\nPrice after 10% discount= 330 * 0.9 = $297\nPrice after further 5% discount (for Dell employees) = 297* 0.95 = $282.\nTherefore, Option C.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    }
+]
