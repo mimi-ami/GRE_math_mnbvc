@@ -15,7 +15,7 @@ def request_url(url):
         "data[quizId]": 811,
         "data[quiz]": 17246,
         "data[course_id]": 55283,
-        "data[quiz_nonce]": "caacd1a060",
+        "data[quiz_nonce]": "6de863c7ce",
         "data[responses]": json.dumps({
             "5126": {
                 "response": {
@@ -32,10 +32,10 @@ def request_url(url):
         }),
         "quiz": 17246,
         "course_id": 55283,
-        "quiz_nonce": "caacd1a060"
-    }       
+        "quiz_nonce": "6de863c7ce"
+    }
     response = requests.post(url, headers=head, data=payload)
-
+    print(response.text)
     if response.status_code == 200:
         data = json.loads(response.text)   
     else:
@@ -55,7 +55,7 @@ def get_result(data):
 
 # 保存数据到表格
 def saveData(data):
-    file_path = f"D:/project/python_study/Qs_Rs/answer.txt"
+    file_path = f"D:/github_project/GRE_math_crewler/Qs_Rs/answer.txt"
     with open(file_path, 'w', encoding='utf-8') as file:
         file.write(data)
 
