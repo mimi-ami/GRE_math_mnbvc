@@ -47,13 +47,6 @@ def get_question(html):
         if p:
             question_text = p.get_text().strip()
             question["QS_text"] = question_text
-        # 选项
-        question_list = []
-        lists = item.find_all('li', class_='wpProQuiz_questionListItem')
-        for i in lists:
-            one = i.find('label').get_text()
-            question_list.append(one.strip())
-        question["list"] = question_list
         data.append(question)
 
     list = soup.find_all('script', {'type' : "text/javascript"})
@@ -124,9 +117,8 @@ def get_answer(id_list, data):
 
 
 # 保存数据
-def save(question, answer):
+def save(x, question, answer):
     result = []
-    x = 0
     for items in question: 
         if "course_id" in items:
             continue
@@ -138,7 +130,7 @@ def save(question, answer):
         data["来源"] = "https://www.test-guide.com/"
         data["元数据"] = {
             "create_time": "",
-            "问题明细": items["QS_text"] + str(items["list"]),
+            "问题明细": items["QS_text"],
             "回答明细": {
                             "回答": answer[str(items["question_pro_id"])],
                             "简要回答": "",
@@ -156,7 +148,7 @@ def save(question, answer):
 
     data_str = json.dumps(result, ensure_ascii=False, indent=4)
     file_path = f"D:/github_project/GRE_math_crewler/Qs_Rs/result2.json"
-    with open(file_path, 'w', encoding='utf-8') as file:
+    with open(file_path, 'a', encoding='utf-8') as file:
         file.write(data_str)
 
 
@@ -169,14 +161,12 @@ if __name__ == "__main__":
     # 问题
     question_url = [
                     "https://www.test-guide.com/courses/gre/lessons/gre-quantitative-reasoning-practice-sets/quizzes/gre-math-numeric-entry-practice-test-1",
-                    # "https://www.test-guide.com/courses/gre/lessons/gre-quantitative-reasoning-practice-sets/quizzes/gre-math-numeric-entry-practice-test-2",
-                    # "https://www.test-guide.com/courses/gre/lessons/gre-quantitative-reasoning-practice-sets/quizzes/gre-math-quantitative-comparison-practice-test-1",
-                    # "https://www.test-guide.com/courses/gre/lessons/gre-quantitative-reasoning-practice-sets/quizzes/gre-math-quantitative-comparison-practice-test-2"
+                    "https://www.test-guide.com/courses/gre/lessons/gre-quantitative-reasoning-practice-sets/quizzes/gre-math-numeric-entry-practice-test-2"
                     ]
-    for i in range(4):
+    x = 0
+    for i in range(2):
         html = question_request_url(question_url[i]) # 保存网页源码
         question = get_question(html)
-        
         # 答案
         answer_url = "https://www.test-guide.com/wp-admin/admin-ajax.php"  # 答案
         data = {}
@@ -191,25 +181,17 @@ if __name__ == "__main__":
             id = str(items["question_pro_id"])
             id_list.append(id)
             data[id] = {
-                "response": {
-                    "0": "false",
-                    "1": "false",
-                    "2": "true",
-                    "3": "true",
-                    "4": "false",
-                    "5": "false"
-                },
+                "response": "1",
                 "question_pro_id": items["question_pro_id"],
                 "question_post_id": items["question_post_id"]
             }
-
         response = json.dumps(data)
         html = answer_request_url(quizId, quiz, course_id, quiz_nonce, response, answer_url) # 保存结果
         answer = get_answer(id_list, html)
 
 
         # # 处理成规定格式，保存
-        save(question, answer)
+        save(x, question, answer)
 
 
     print("over")
