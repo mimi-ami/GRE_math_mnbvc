@@ -136,18 +136,9 @@ def save(x, question, answer):
         data["答"] = ""
         data["来源"] = "https://www.test-guide.com/"
         data["元数据"] = {
-            "create_time": "",
+            "create_time": datetime.now().strftime("%Y%m%d %H:%M:%S"),
             "问题明细": items["QS_text"] + str(items["list"]),
-            "回答明细": {
-                            "回答": answer[str(items["question_pro_id"])],
-                            "简要回答": "",
-                            "结构": {
-                                    "方法":[],
-                                    "小提示":[],
-                                    "注意事项":[]
-                                    }
-                        },
-           
+            "回答明细": answer[str(items["question_pro_id"])],
             "扩展字段": ""
         }
         data["时间"] = datetime.now().strftime("%Y%m%d")
