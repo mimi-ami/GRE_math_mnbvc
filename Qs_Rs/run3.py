@@ -141,9 +141,8 @@ def get_answer(id_list, data):
 
 
 # 保存数据
-def save(question, answer):
+def save(x, question, answer):
     result = []
-    x = 0
     for items in question: 
         if "course_id" in items:
             continue
@@ -227,9 +226,9 @@ if __name__ == "__main__":
         html = answer_request_url(quizId, quiz, course_id, quiz_nonce, response, answer_url) # 保存结果
         answer = get_answer(id_list, html)
 
-
+        x = 60 + i*10
         # # 处理成规定格式，保存
-        save(question, answer)
+        save(x, question, answer)
 
     print("over")
 

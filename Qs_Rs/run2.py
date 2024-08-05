@@ -163,7 +163,7 @@ if __name__ == "__main__":
                     "https://www.test-guide.com/courses/gre/lessons/gre-quantitative-reasoning-practice-sets/quizzes/gre-math-numeric-entry-practice-test-1",
                     "https://www.test-guide.com/courses/gre/lessons/gre-quantitative-reasoning-practice-sets/quizzes/gre-math-numeric-entry-practice-test-2"
                     ]
-    x = 0
+   
     for i in range(2):
         html = question_request_url(question_url[i]) # 保存网页源码
         question = get_question(html)
@@ -189,7 +189,7 @@ if __name__ == "__main__":
         html = answer_request_url(quizId, quiz, course_id, quiz_nonce, response, answer_url) # 保存结果
         answer = get_answer(id_list, html)
 
-
+        x = 40 + i*10
         # # 处理成规定格式，保存
         save(x, question, answer)
 
