@@ -842,4 +842,846 @@
         },
         "时间": "20240805"
     }
+    {
+        "id": 40,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "During a college fun-fair, the entrance fee for students was $12 and for teachers (and their family members) it was $30. 75 people came to attend that event and a total of $1800 was gathered. How many students came to this fun-fair?",
+            "回答明细": {
+                "回答": "25: Let x be the number of students\nNumber of teachers = 75 – x\n12 × x + 30 × (75 – x) = 1800\n12x + 2250 – 30x = 1800\n18x = 450\nx = 25\nTherefore, the number of students who attended this event = 25\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 41,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "In a certain society, the ratio of unemployed people to employed people is 2:5 respectively. If there are 700 employed people in that society, how many are unemployed?",
+            "回答明细": {
+                "回答": "280: In order to find the solution to this question, we write the given data in form of a mathematical equation i.e. 2/5=x/700\nWhere ‘x’ is the number of unemployed people. Solving this equation, we get to know that x=(2*700)/5 = 1400/5= 280\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 42,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "The date of birth of Randy is November 3rd, 1920. After living a successful life as a politician, she died on April 24th, 1983. What was her age in years when she died?",
+            "回答明细": {
+                "回答": "62: The last birthday of Randy was in the year 1982. So, her age at the time of her death was 1982-1920 = 62 years\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 43,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "David and Bella started a new company and decided that the net profit will be divided in a 6:7 ratio respectively. At the end of first month, they got a profit of $390. What is the amount that David got after the first month?\nRound to the nearest dollar and do NOT enter a dollar sign($)",
+            "回答明细": {
+                "回答": "180: In order to solve this question, you simply need to know the value of each single part i.e. 390/13 = $30 Therefore, total profit for David is 6*30 = $180.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 44,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Consider the following two equations and find the value of x – 3y.\n2x-4y= 4\nx – y = 3",
+            "回答明细": {
+                "回答": "1: In order to find the correct answer, we need to find the values of x and y. Simplifying first equation, it becomes, x-2y= 2. From second equation, we note that x= 3+y.\nPutting this value in simplified version of first equation, we get, 3+y-2y=2 -> -y=-1 -> y=1.\nAnd, x= 3+y = 4.\nSo, x – 3y = 4 – 3= 1\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 45,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "What is the probability that two of your friends were born on the same day of the week?\nAnswer as a fraction (e.g., 3/5 or 4/6)",
+            "回答明细": {
+                "回答": "1/7: This looks like a relatively easy question but many students get confused in answering these types of questions. You must not be confused with ‘two friends’.\nThe probability is simple as 1/7 i.e. 7 days of week.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 46,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "There are ‘x’ balls in blue bag and the number of balls in green bag are ‘2x’. The average price of balls in blue bag is $20 and the average price of balls of green bag is $30. If all the balls of these two bags are put in a yellow bag, what would be the average price of balls of yellow bag?\nRound to the nearest tenth (e.g., 23.7 or 18.6)",
+            "回答明细": {
+                "回答": "26.7: In order to find the average price, we multiply the average of each group by its size and add the results. i.e. (20*1) + (30*2)= 20+60 = 80.\nNow we have the total number of balls. If we divide it by total size (i.e. x+2x= 3x), we will get the overall average.\nTherefore, 80/3 = 26.66 = 26.7 approx.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 47,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "In a 3.5 hours long online gaming session, Alice scored 525 points. How many points did she score per minute?",
+            "回答明细": {
+                "回答": "2.5: First we convert 3.5 hours to minutes, i.e., we have 3.5*60= 210 minutes. So, 525/210 equals 2.5 points per minute.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 48,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "In a Mathematics test, out of total 25 questions, David left questions 5 to 13 blank. How many questions did he attempt?",
+            "回答明细": {
+                "回答": "16: You simply need to count the number of questions that he left and then subtract that from the total number of questions. i.e. 25-9 = 16\n5 to 13 means that he left question number 5,6,7,8,9,10,11,12,13 i.e. total 9 questions left.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 49,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "If a2-b2=28 and (a+b) = 4, what is the value of (a-b)?",
+            "回答明细": {
+                "回答": "7: We know that the general formula is a2-b2=(a+b)(a-b)\nHere, we know the value of (a2-b2) and (a+b).\n(a-b) can be simply found by dividing these terms. 28/4 = 7\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    }
+][
+    {
+        "id": 50,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Lenny is a professional typist. She can type 330 words in 1.5 minutes. How many minutes would it take Lenny to type 9,900 words given that she takes a rest of 60 seconds after every 10 minutes?",
+            "回答明细": {
+                "回答": "49: Lenny types 330 words in 90 seconds. She types 330/90= 3.66 words per second which means she types 220 words per minute. In typing 9,900 words, she would take 9900/220 = 45 minutes.\nBut we know that after every 10 minutes, she takes 1 minute rest. So the total time becomes 45 + 4 = 49 minutes.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 51,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "In a class of 30 students, 17 students like to play Cricket whereas 19 of them like to play Hockey. 2 students do not play any game. How many students like to play both Cricket and Hockey?",
+            "回答明细": {
+                "回答": "8: It’s given in the question that 2 students don’t like to play either of the game so we are left with 28 students who like either cricket or hockey.\nLet’s say that ‘n’ represents the number of students who like both cricket and hockey. Total (28) will be made up of only cricket players (17 – n), plus only hockey (19 – n) and those who play both (n).\n28 = (17 – n) + (19 – n) + n\n28 = 36 – n ; n = 8\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 52,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "What is the number of degrees moved by the hour hand of a clock in going from 11 am to 3:30 pm?",
+            "回答明细": {
+                "回答": "135: First of all, you must calculate the degrees rotated by hour hand of a clock for one hour. This is 360/12 = 30 degrees.\nNow, in going from 11am to 3:30 pm, 4.5 hours have been covered, so the degrees rotated by hour hand of the clock would be 4.5 * 30 = 135.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 53,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "A wooden box contains 3 yellow socks, 5 brown socks and 10 black socks. What is the probability that if Brian takes out a random pair of socks from the box, it is black?\nAnswer as a fraction in simplest terms (e.g., 3/4 instead of 6/8)",
+            "回答明细": {
+                "回答": "5/9: We must note that the total number of pair of socks in the wooden box is 18 i.e. (3 Yellow, 5 brown, 10 black). The probability for black socks is 10/18= 5/9\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 54,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "There are ‘n’ number of sweets in a box. The total weight of the box is 2 pounds. After some time, you note that Alice ate ¾ of the total sweets. Now the box weighs 0.8 pounds. What is the weight of empty box if Alice eats the remaining ¼ sweets as well?\nAnswer as a decimal rounded to nearest tenth (e.g., 0.8 or 1.2)",
+            "回答明细": {
+                "回答": "0.4: Let the weight of the empty box = w\n(2 – w) = weight of the sweets; and one quarter of the sweets weigh (2 – w)/4\nOne quarter of the sweets+ box = 0.8 = w + (2 – w)/4\nmultiply through by 4; 3.2 = 4w + 2 – w\n1.2 = 3w; w = 0.4\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 55,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Before a cricket match, coin was flipped 3 times. Each time, the captain of Team ‘A’ chose Heads and captain of team ‘B’ chose Tails. What is the probability that the captain of team ‘A’ won the toss all three times?\nAnswer as a fraction (e.g., 1/2 or 1/6)",
+            "回答明细": {
+                "回答": "1/8: The probability that the captain of team A won the toss first time is ½. The probability that he won the toss second time is (1/2*1/2) = ¼.\nNow the probability that he will the toss third time as well is (1/2*1/2*1/2) = 1/8\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 56,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Bale, Rio and John are playing a game in which each one of them have to choose a chit from a total of 20 chits. Each of these 20 chits has a number written on it from 1 to 20 and no number is repeated twice. The one who picks up a chit which is either multiple of 5 or 6 will have to serve others a smoked chicken pizza. Bale tries his luck first. What is the probability that he will be the one who will have to serve other pizza?\nAnswer as a fraction in simplest form (e.g., 1/4 or 3/5)",
+            "回答明细": {
+                "回答": "7/20: Total number of multiples of 5 from 1 to 20 is 4. Total number of multiples of 6 from 1 to 20 is 3. So, (4+7)/20 = 7/20\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 57,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "There are three straight lines in certain plane. What is the maximum number of possible points of intersections of these lines considering the fact that these are straight lines?",
+            "回答明细": {
+                "回答": "3: Explanation: We know that 2 straight lines can intersect each other at only 1 point. Now if a third line is also included in the same plane, it can intersect the first two lines at two points.\nThus making the total points of intersection equal to 3.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 58,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "If the average of 4 and ‘A’ is 12, and the average of 6 and ‘B’ is 20. What is the average of A and B?",
+            "回答明细": {
+                "回答": "27: Average of 4 and ‘A’ is 12. This means that (4+A)/2=12 i.e., A=24-4 = 20\nSimilarly, Average of ‘B’ and 6 is 20 which means (6+B)/2=20 i.e., B = 40-6=34\nSo the average of A and B = (34+20)/2= 27\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 59,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "In a triangle ABC, the measure of angle ‘a’ is 7 times the smallest angle and the measure of angle ‘b’ is 10 times the smallest angle. What is the exact measure of angle ‘a’ if angle ‘c’ is the smallest angle?\nAnswer as a number with no units of measurement (e.g., 40 instead of 40 degrees)",
+            "回答明细": {
+                "回答": "70: We know that the sum of angles of a triangle is always 180. Let’s suppose that angle ‘c’ is x degrees. So,\nx+ 7x+10x = 180\n18x= 180\nx=10\nFrom the statement of the question, Angle a = 7x = 7 (10) = 70\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    }
+    {
+        "id": 60,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "A mixed team of four young researchers is to be chosen from a group of 7 male and 5 female students.\n\n\n\nQuantity A\nQuantity B\n\n\nThe number of different research teams with 3 female students and 1 male student\n66[['Quantity A', 'Quantity B'], ['The number of different research teams with 3 female students and 1 male student', '66']]",
+            "回答明细": {
+                "回答": "A: Explanation: Start off by finding the number of groups which can be formed having 3 females out of 5. i.e. (5*4*3)/(3*2*1)= 10.\nNow, we multiply it by the total number of male students who can be coupled in to form a group of total four members.\nTherefore, 10*7 = 70.\nAs 70 > 66, so Option (a) is correct.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 61,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Line segment AB and Line segment CD are parallel to each other, such that the lines which are intersecting these two line segments are also parallel to each other.\n\n\n\n\n\n\n\n\nQuantity A\nQuantity B\n\n\nxo\n70ohttps://www.test-guide.com/wp-content/uploads/2023/04/scrn1-4-300x250.jpg[['Quantity A', 'Quantity B'], ['xo', '70o']]",
+            "回答明细": {
+                "回答": "C: Explanation: When parallel lines are intersected by parallel lines, the opposite angles are always equal. If we look closely, we see that the given angle 70 degrees becomes opposite angle to unknown angle ‘x’, and therefore, these two are equal. Option C.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 62,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "In a particular Zoo, there are 30 animals, such that 14 of these animals like to eat white meat, whereas 13 animals like to eat grains. 9 animals are neither fond of white meat nor grains.\n\n\n\nQuantity A\nQuantity B\n\n\nThe number of animals which eat both white meat and grains\n7[['Quantity A', 'Quantity B'], ['The number of animals which eat both white meat and grains', '7']]",
+            "回答明细": {
+                "回答": "B: Explanation: The easiest and the most time efficient way to solve these group questions is to simply substitute the value in the formula i.e.\nTotal = Group 1 + Group 2 – Both + Neither\n30 = 14 + 13 – Both + 9\nBoth = 6\nSo, the animals which eat both kinds of food are 6.\nWe chose option B as our correct answer.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 63,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Chose the correct answer from the given quantities.\n\n\n\nQuantity A\nQuantity B\n\n\n124 + 376 + 539\n129 + 397 + 543[['Quantity A', 'Quantity B'], ['124 + 376 + 539', '129 + 397 + 543']]",
+            "回答明细": {
+                "回答": "B: This is a simple question but most of the candidates will waste their time on this type of question by adding all numbers and then comparing. However, you need to save your time in these types of questions.\nYou note that all the numbers in quantity B are greater than respective numbers in quantity A so you don’t need to add the numbers. Therefore, option (B) is correct.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 64,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "The average arithmetic mean of 5 numbers is 100. From this given information, chose the correct option.\n\n\n\nQuantity A\nQuantity B\n\n\nSum of these numbers\n133[['Quantity A', 'Quantity B'], ['Sum of these numbers', '133']]",
+            "回答明细": {
+                "回答": "A: Now let’s read the given information once again carefully. We know that arithmetic mean of 5 numbers equals the sum of those 5 numbers divided by 5. Now, we have the arithmetic mean equal to 100 as given. This means that, sum of these numbers is 100*5 = 500.\nNow we know that 500 > 133, so we chose option (a).\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 65,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "A + B = 3 and A – B = 4. From the given information, chose the correct option.\n\n\n\nQuantity A\nQuantity B\n\n\nA\nB[['Quantity A', 'Quantity B'], ['A', 'B']]",
+            "回答明细": {
+                "回答": "A: Explanation: In order to solve this question, you have to find the values of A and B. From first equation, we get to know that A = 3 – B.\nSo we put this value of A in second equation, which becomes, 3- B – B = 4, solving this equation, we get -2B = 1 i.e. B= -1/2. And A = 7/2. So option (a) is correct.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 66,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "At a telephone company, the ratio of male employees to female employees was 8 to 9. After some time, 10 more employees were hired such that 6 were male and 4 were female.\n\n\n\nQuantity A\nQuantity B\n\n\nThe number of male employees after hiring was complete\nThe number of female employees after hiring was complete[['Quantity A', 'Quantity B'], ['The number of male employees after hiring was complete', 'The number of female employees after hiring was complete']]",
+            "回答明细": {
+                "回答": "D: Explanation: As given in the statement of the question, the ratio of male to female employees was 8 to 9 which means that if there were 8 male, there were 9 female. Similarly, for 16 male, there would be18 female or we can say that for 24 male, there would be 27 female.\nNow after the hiring process was complete, 6 male and 4 female were hired, which could make the total 14 male and 13 female, or maybe 22 male and 22 female, or maybe 30 male and 31 female. As the total number of employees is not given, we can’t be sure which of these is correct. Therefore, we select option D.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 67,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Select the correct option.\n\n\n\nQuantity A\nQuantity B\n\n\n164\n213[['Quantity A', 'Quantity B'], ['164', '213']]",
+            "回答明细": {
+                "回答": "A: It is very important that you must not waste your time in a timed test. You don’t need to calculate the values of every quantity.\nFor example, In this question, instead of wasting time in calculating values for both of these questions, all you have to do Is write 164 in form of quantity B i.e. 16=(24) so we can write 164= (24)4 = 216 \nNow we know that, 216> 213 so option (a) is correct.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 68,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "If x+2y= 4 and x+3y= 9. Find the correct option.\n\n\n\nQuantity A\nQuantity B\n\n\nx\ny[['Quantity A', 'Quantity B'], ['x', 'y']]",
+            "回答明细": {
+                "回答": "B: In order to find the correct option, we need to find the values of x and y. We know from first equation that x= 4- 2y. Putting this value of x in second equation, we get, 4-2y+3y = 9 i.e. y = 5. And x= 4 – 2(5) = -6.\nSo, y>x. Therefore, Quantity B > Quantity A.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 69,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "If x2+ 2x-5=10, select the correct option.\n\n\n\nQuantity A\nQuantity B\n\n\n3\nx[['Quantity A', 'Quantity B'], ['3', 'x']]",
+            "回答明细": {
+                "回答": "D: This type of question is of medium level difficulty. Most of the students would find the correct answer to this question, however, what matters is how much time you would take to find answer to this question. Simplify the given equation using quadratic formula to find the value of x which is x= 3 or x= -5.\nNow we see that when we consider x=3, option (c) is correct but when we select x= -5, Option (a) is correct. So we say that the exact relationship cannot be determined. Therefore, Option (d) is correct.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    }
+][
+    {
+        "id": 70,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Select the correct option.\n\n\n\nQuantity A\nQuantity B\n\n\nCircumference of a circle with radius 3\nPerimeter of a square with each side equal to 4[['Quantity A', 'Quantity B'], ['Circumference of a circle with radius 3', 'Perimeter of a square with each side equal to 4']]",
+            "回答明细": {
+                "回答": "A: We know that circumference of a circle equals 2πr. Here, r= 3 so the circumference equals 18 approximately.\nNow, Perimeter of a square is equal to sum of all its sides, which in this case is 16.\nSo, we say that Option (a) is correct because Quantity A is greater than Quantity B.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 71,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Triangle ABC is an isosceles triangle.\n\n\n\n\n\n\n\n\nQuantity A\nQuantity B\n\n\nAngle ABC\n70°https://www.test-guide.com/wp-content/uploads/2023/04/scrn1-5-300x185.jpg[['Quantity A', 'Quantity B'], ['Angle ABC', '70°']]",
+            "回答明细": {
+                "回答": "B: As given in the statement of the question, Triangle ABC is an isosceles triangle which means that two sides are equal meaning that two angles in this triangle would also be equal.\nFigure shows that sides AB and AC are equal, which means that angle ABC and angle ACB must be equal. As the total sum of angles in a triangle is 180, and one angle is given as 70, we are left with 110 degrees to be divided equally in two angles.\nTherefore, angle ABC and angle ACB are 55 degrees each, which is smaller than 70 degrees. So, we select option B as our correct option.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 72,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Compare Quantity A and Quantity B\n\n\n\nQuantity A\nQuantity B\n\n\n(233)(101)\n(231)(307)[['Quantity A', 'Quantity B'], ['(233)(101)', '(231)(307)']]",
+            "回答明细": {
+                "回答": "A: Most of the students will be confused by this question and some may start doing the lengthy calculations as well but you must not forget that time is one of the key factor of a timed test.\nThis question can be easily solved if you note that 233= (231)(22). So, it becomes,\nQuantity A=(231)(22 )(101)\nQuantity B=(231)(307)\nWe know that 4*101 > 307. So, we choose option (a).\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 73,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Suppose that the product of three consecutive numbers is 0. Let these numbers be a, b, and c. i.e. a*b*c= 0\n\n\n\nQuantity A\nQuantity B\n\n\nValue of ‘a’\n0[['Quantity A', 'Quantity B'], ['Value of ‘a’', '0']]",
+            "回答明细": {
+                "回答": "D: From the given data, it is not clear what is the value of ‘a’.\nThe only thing which is given to us is that the product of these three numbers is zero which means that these numbers could be -2,-1,0 or -1,0,1, or 0,1,2. Therefore, we chose option (d).\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 74,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Mario and Alan are best friends and they study in the same school. Mario is in 4th grade whereas Alan is in 5th grade. The number of students in Mario’s class is ‘x’ and the number of students in Alan’s class is one less than three times the number of students in Mario’s class. From this given information, choose the correct answer. (please note that the minimum number of students in a class is 10)\n\n\n\nQuantity A\nQuantity B\n\n\n(Number of students in Mario’s class)²\n2*(Number of students in Alan’s class)[['Quantity A', 'Quantity B'], ['(Number of students in Mario’s class)²', '2*(Number of students in Alan’s class)']]",
+            "回答明细": {
+                "回答": "A: Simplest way to solve this question is by using numerical values. We know that number of students in Mario’s class is ‘x’. Number of students in Alan’s class is 3x-1.\nAs the minimum number of students is 10, so we start with x=10.\nSquare of Number of students in Mario’s class = x2=100\n2* (Number of students in Alan’s class)= 2* (3x-1) = 2* (3(10)-1)= 2* (30-1)= 2*29 = 58\nAs 100 > 58, so Quantity A > Quantity B.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 75,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Choose the correct option.\n\n\n\nQuantity A\nQuantity B\n\n\n[22/2*7/11*3/21]\n[3/2*5/6*21/15*24/42][['Quantity A', 'Quantity B'], ['[22/2*7/11*3/21]', '[3/2*5/6*21/15*24/42]']]",
+            "回答明细": {
+                "回答": "C: Most of the students would select Option (b) for this question because there are more fractions in it but it’s wrong.\nYou must not waste your time in these types of questions but at the same time, you have to be careful. If you observe carefully, you will note that both these quantities are equal to 1. So, we choose option (c).\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 76,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Consider the following equation and choose the correct answer.\n14- 5x > 7\n\n\n\nQuantity A\nQuantity B\n\n\nx\n2[['Quantity A', 'Quantity B'], ['x', '2']]",
+            "回答明细": {
+                "回答": "B: 14-5x > 7\n-5x > 7-14\n-5x > -7\nx < 7/5\nIf x < 7/5, then x must also be less than 2. So, we choose option B.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 77,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "We have a wooden plank of 16 feet and we cut it into 5 equal parts and a shorter length is left over. Which of the following given options is correct?\n\n\n\nQuantity A\nQuantity B\n\n\nLength of one part of wooden plank\n3[['Quantity A', 'Quantity B'], ['Length of one part of wooden plank', '3']]",
+            "回答明细": {
+                "回答": "D: Most students would choose option (c) in this question but that’s NOT correct, because it is mentioned nowhere in the question that the length of each side of the plank has to be an integer value i.e., the length can be 3.1 for each side or maybe it could be 3.\nSo, we cannot say anything about it. Therefore, we choose option (d).\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 78,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "If ‘a’ is an integer greater than zero, which of the following is correct.\n\n\n\nQuantity A\nQuantity B\n\n\n[a22]\n[a23][['Quantity A', 'Quantity B'], ['[a22]', '[a23]']]",
+            "回答明细": {
+                "回答": "D: Most of the students will just note the power of ‘a’ and choose option (b) but that is wrong. You must note that a>0 means that ‘a’ could possibly be 1 as well.\nAnd if a=1, Quantity A and Quantity B are equal. Therefore, we choose option (d), as we don’t exactly know whether a=1 or a>1.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    },
+    {
+        "id": 79,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Suppose |x| = 6\nZ = x + 3\n\n\n\nQuantity A\nQuantity B\n\n\nz\n8[['Quantity A', 'Quantity B'], ['z', '8']]",
+            "回答明细": {
+                "回答": "D: From the given data, it is clear that x= +6 or -6. Now if x= +6, then, Z = 6+3 = 9 which means option (a).\nHowever, if we consider x= -6, then, Z = -6+3 = -3 which means Quantity B is greater, implying option (b). We cannot choose both options (‘a’ and ‘b’) at the same time, so we select option (d) as correct.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240805"
+    }
 ]
