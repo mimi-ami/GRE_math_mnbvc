@@ -146,10 +146,11 @@ def save(x, question, answer):
         data["时间"] = datetime.now().strftime("%Y%m%d")
         result.append(data)
 
-    data_str = json.dumps(result, ensure_ascii=False, indent=4)
     file_path = f"D:/github_project/GRE_math_crewler/Qs_Rs/result2.json"
     with open(file_path, 'a', encoding='utf-8') as file:
-        file.write(data_str)
+        for item in result:
+            data_str = json.dumps(item, ensure_ascii=False)
+            file.write(data_str + "\n")
 
 
 
