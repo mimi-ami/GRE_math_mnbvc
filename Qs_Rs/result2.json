@@ -1,0 +1,423 @@
+[
+    {
+        "id": 0,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "During a college fun-fair, the entrance fee for students was $12 and for teachers (and their family members) it was $30. 75 people came to attend that event and a total of $1800 was gathered. How many students came to this fun-fair?",
+            "回答明细": {
+                "回答": "25: Let x be the number of students\nNumber of teachers = 75 – x\n12 × x + 30 × (75 – x) = 1800\n12x + 2250 – 30x = 1800\n18x = 450\nx = 25\nTherefore, the number of students who attended this event = 25\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 1,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "In a certain society, the ratio of unemployed people to employed people is 2:5 respectively. If there are 700 employed people in that society, how many are unemployed?",
+            "回答明细": {
+                "回答": "280: In order to find the solution to this question, we write the given data in form of a mathematical equation i.e. 2/5=x/700\nWhere ‘x’ is the number of unemployed people. Solving this equation, we get to know that x=(2*700)/5 = 1400/5= 280\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 2,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "The date of birth of Randy is November 3rd, 1920. After living a successful life as a politician, she died on April 24th, 1983. What was her age in years when she died?",
+            "回答明细": {
+                "回答": "62: The last birthday of Randy was in the year 1982. So, her age at the time of her death was 1982-1920 = 62 years\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 3,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "David and Bella started a new company and decided that the net profit will be divided in a 6:7 ratio respectively. At the end of first month, they got a profit of $390. What is the amount that David got after the first month?\nRound to the nearest dollar and do NOT enter a dollar sign($)",
+            "回答明细": {
+                "回答": "180: In order to solve this question, you simply need to know the value of each single part i.e. 390/13 = $30 Therefore, total profit for David is 6*30 = $180.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 4,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Consider the following two equations and find the value of x – 3y.\n2x-4y= 4\nx – y = 3",
+            "回答明细": {
+                "回答": "1: In order to find the correct answer, we need to find the values of x and y. Simplifying first equation, it becomes, x-2y= 2. From second equation, we note that x= 3+y.\nPutting this value in simplified version of first equation, we get, 3+y-2y=2 -> -y=-1 -> y=1.\nAnd, x= 3+y = 4.\nSo, x – 3y = 4 – 3= 1\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 5,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "What is the probability that two of your friends were born on the same day of the week?\nAnswer as a fraction (e.g., 3/5 or 4/6)",
+            "回答明细": {
+                "回答": "1/7: This looks like a relatively easy question but many students get confused in answering these types of questions. You must not be confused with ‘two friends’.\nThe probability is simple as 1/7 i.e. 7 days of week.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 6,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "There are ‘x’ balls in blue bag and the number of balls in green bag are ‘2x’. The average price of balls in blue bag is $20 and the average price of balls of green bag is $30. If all the balls of these two bags are put in a yellow bag, what would be the average price of balls of yellow bag?\nRound to the nearest tenth (e.g., 23.7 or 18.6)",
+            "回答明细": {
+                "回答": "26.7: In order to find the average price, we multiply the average of each group by its size and add the results. i.e. (20*1) + (30*2)= 20+60 = 80.\nNow we have the total number of balls. If we divide it by total size (i.e. x+2x= 3x), we will get the overall average.\nTherefore, 80/3 = 26.66 = 26.7 approx.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 7,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "In a 3.5 hours long online gaming session, Alice scored 525 points. How many points did she score per minute?",
+            "回答明细": {
+                "回答": "2.5: First we convert 3.5 hours to minutes, i.e., we have 3.5*60= 210 minutes. So, 525/210 equals 2.5 points per minute.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 8,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "In a Mathematics test, out of total 25 questions, David left questions 5 to 13 blank. How many questions did he attempt?",
+            "回答明细": {
+                "回答": "16: You simply need to count the number of questions that he left and then subtract that from the total number of questions. i.e. 25-9 = 16\n5 to 13 means that he left question number 5,6,7,8,9,10,11,12,13 i.e. total 9 questions left.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 9,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "If a2-b2=28 and (a+b) = 4, what is the value of (a-b)?",
+            "回答明细": {
+                "回答": "7: We know that the general formula is a2-b2=(a+b)(a-b)\nHere, we know the value of (a2-b2) and (a+b).\n(a-b) can be simply found by dividing these terms. 28/4 = 7\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    }
+][
+    {
+        "id": 0,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Lenny is a professional typist. She can type 330 words in 1.5 minutes. How many minutes would it take Lenny to type 9,900 words given that she takes a rest of 60 seconds after every 10 minutes?",
+            "回答明细": {
+                "回答": "49: Lenny types 330 words in 90 seconds. She types 330/90= 3.66 words per second which means she types 220 words per minute. In typing 9,900 words, she would take 9900/220 = 45 minutes.\nBut we know that after every 10 minutes, she takes 1 minute rest. So the total time becomes 45 + 4 = 49 minutes.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 1,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "In a class of 30 students, 17 students like to play Cricket whereas 19 of them like to play Hockey. 2 students do not play any game. How many students like to play both Cricket and Hockey?",
+            "回答明细": {
+                "回答": "8: It’s given in the question that 2 students don’t like to play either of the game so we are left with 28 students who like either cricket or hockey.\nLet’s say that ‘n’ represents the number of students who like both cricket and hockey. Total (28) will be made up of only cricket players (17 – n), plus only hockey (19 – n) and those who play both (n).\n28 = (17 – n) + (19 – n) + n\n28 = 36 – n ; n = 8\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 2,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "What is the number of degrees moved by the hour hand of a clock in going from 11 am to 3:30 pm?",
+            "回答明细": {
+                "回答": "135: First of all, you must calculate the degrees rotated by hour hand of a clock for one hour. This is 360/12 = 30 degrees.\nNow, in going from 11am to 3:30 pm, 4.5 hours have been covered, so the degrees rotated by hour hand of the clock would be 4.5 * 30 = 135.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 3,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "A wooden box contains 3 yellow socks, 5 brown socks and 10 black socks. What is the probability that if Brian takes out a random pair of socks from the box, it is black?\nAnswer as a fraction in simplest terms (e.g., 3/4 instead of 6/8)",
+            "回答明细": {
+                "回答": "5/9: We must note that the total number of pair of socks in the wooden box is 18 i.e. (3 Yellow, 5 brown, 10 black). The probability for black socks is 10/18= 5/9\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 4,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "There are ‘n’ number of sweets in a box. The total weight of the box is 2 pounds. After some time, you note that Alice ate ¾ of the total sweets. Now the box weighs 0.8 pounds. What is the weight of empty box if Alice eats the remaining ¼ sweets as well?\nAnswer as a decimal rounded to nearest tenth (e.g., 0.8 or 1.2)",
+            "回答明细": {
+                "回答": "0.4: Let the weight of the empty box = w\n(2 – w) = weight of the sweets; and one quarter of the sweets weigh (2 – w)/4\nOne quarter of the sweets+ box = 0.8 = w + (2 – w)/4\nmultiply through by 4; 3.2 = 4w + 2 – w\n1.2 = 3w; w = 0.4\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 5,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Before a cricket match, coin was flipped 3 times. Each time, the captain of Team ‘A’ chose Heads and captain of team ‘B’ chose Tails. What is the probability that the captain of team ‘A’ won the toss all three times?\nAnswer as a fraction (e.g., 1/2 or 1/6)",
+            "回答明细": {
+                "回答": "1/8: The probability that the captain of team A won the toss first time is ½. The probability that he won the toss second time is (1/2*1/2) = ¼.\nNow the probability that he will the toss third time as well is (1/2*1/2*1/2) = 1/8\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 6,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "Bale, Rio and John are playing a game in which each one of them have to choose a chit from a total of 20 chits. Each of these 20 chits has a number written on it from 1 to 20 and no number is repeated twice. The one who picks up a chit which is either multiple of 5 or 6 will have to serve others a smoked chicken pizza. Bale tries his luck first. What is the probability that he will be the one who will have to serve other pizza?\nAnswer as a fraction in simplest form (e.g., 1/4 or 3/5)",
+            "回答明细": {
+                "回答": "7/20: Total number of multiples of 5 from 1 to 20 is 4. Total number of multiples of 6 from 1 to 20 is 3. So, (4+7)/20 = 7/20\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 7,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "There are three straight lines in certain plane. What is the maximum number of possible points of intersections of these lines considering the fact that these are straight lines?",
+            "回答明细": {
+                "回答": "3: Explanation: We know that 2 straight lines can intersect each other at only 1 point. Now if a third line is also included in the same plane, it can intersect the first two lines at two points.\nThus making the total points of intersection equal to 3.\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 8,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "If the average of 4 and ‘A’ is 12, and the average of 6 and ‘B’ is 20. What is the average of A and B?",
+            "回答明细": {
+                "回答": "27: Average of 4 and ‘A’ is 12. This means that (4+A)/2=12 i.e., A=24-4 = 20\nSimilarly, Average of ‘B’ and 6 is 20 which means (6+B)/2=20 i.e., B = 40-6=34\nSo the average of A and B = (34+20)/2= 27\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    },
+    {
+        "id": 9,
+        "问": "",
+        "答": "",
+        "来源": "https://www.test-guide.com/",
+        "元数据": {
+            "create_time": "",
+            "问题明细": "In a triangle ABC, the measure of angle ‘a’ is 7 times the smallest angle and the measure of angle ‘b’ is 10 times the smallest angle. What is the exact measure of angle ‘a’ if angle ‘c’ is the smallest angle?\nAnswer as a number with no units of measurement (e.g., 40 instead of 40 degrees)",
+            "回答明细": {
+                "回答": "70: We know that the sum of angles of a triangle is always 180. Let’s suppose that angle ‘c’ is x degrees. So,\nx+ 7x+10x = 180\n18x= 180\nx=10\nFrom the statement of the question, Angle a = 7x = 7 (10) = 70\n",
+                "简要回答": "",
+                "结构": {
+                    "方法": [],
+                    "小提示": [],
+                    "注意事项": []
+                }
+            },
+            "扩展字段": ""
+        },
+        "时间": "20240802"
+    }
+]
